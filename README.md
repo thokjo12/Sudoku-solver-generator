@@ -24,7 +24,9 @@ fn main() {
     let problem = Csp::new(|x, y| { x != y });
     
     let result = problem.create_sudoku(0.5); 
-    // 0.5 here is a threshold value to determine if we keep a cell value or not as this will generate a unsolved sudoku.
+    // 0.5 here is a threshold which 
+    // says how much of the board we replace 
+    // with zeros that represents empty cells
 }
 ```
 
